@@ -74,6 +74,7 @@
     <Content Include="Querystring.aspx" />
     <Content Include="Session.aspx" />
     <Content Include="Sessiondata.aspx" />
+    <Content Include="Sessionwithcount.aspx" />
     <Content Include="ViewState.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -127,6 +128,13 @@
     </Compile>
     <Compile Include="Sessiondata.aspx.designer.cs">
       <DependentUpon>Sessiondata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sessionwithcount.aspx.cs">
+      <DependentUpon>Sessionwithcount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sessionwithcount.aspx.designer.cs">
+      <DependentUpon>Sessionwithcount.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewState.aspx.cs">
       <DependentUpon>ViewState.aspx</DependentUpon>
