@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="CookieData.aspx" />
     <Content Include="Cookies.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="numberofusersforapplicationtechnique.aspx" />
     <Content Include="Pagelifecycle.aspx" />
     <Content Include="Qrerystringpage2.aspx" />
     <Content Include="Querystring.aspx" />
@@ -92,6 +94,16 @@
     </Compile>
     <Compile Include="Cookies.aspx.designer.cs">
       <DependentUpon>Cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="numberofusersforapplicationtechnique.aspx.cs">
+      <DependentUpon>numberofusersforapplicationtechnique.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="numberofusersforapplicationtechnique.aspx.designer.cs">
+      <DependentUpon>numberofusersforapplicationtechnique.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pagelifecycle.aspx.cs">
       <DependentUpon>Pagelifecycle.aspx</DependentUpon>

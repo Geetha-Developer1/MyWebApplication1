@@ -16,12 +16,12 @@ namespace MyWebApplication1
                 ViewState["Clickscount"] = 0;
             }
         }
-
+            
         protected void btnsubmit_Click(object sender, EventArgs e)
         {
             //int count = 0;
             //count++;
-            //lblmsg.Text= "Clicks count: " + count;
+            //lblmsg.Text = "Clicks count: " + count;
             int count = (int)ViewState["Clickscount"];
             count++;
             ViewState["Clickscount"] = count;
